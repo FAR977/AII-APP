@@ -12,9 +12,9 @@ class FireDetector:
     def __init__(self, video_path):
         pygame.mixer.init()
         self.model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
-        self.alarm_sound = pygame.mixer.Sound('/absolute/path/to/alarm.mp3')
+        self.alarm_sound = pygame.mixer.Sound('alarm.mp3')
         self.video_path = video_path
-        self.cap = cv2.VideoCapture(video_path)
+        self.cap = cv2.VideoCapture(demo.mp4)
         self.is_fire_detected = False
 
     def detect_fire(self, frame):
