@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = Write To Kivy
+title = aqaqKivy
 
 # (str) Package name
 package.name = AIIAPP
