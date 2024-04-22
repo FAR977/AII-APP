@@ -4,7 +4,7 @@
 title = Write To Kivy
 
 # (str) Package name
-package.name = KivyTest
+package.name = AIIAPP
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.YourName
